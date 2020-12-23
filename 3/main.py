@@ -15,8 +15,8 @@ treeCount = 0
 x = 0
 y = 0
 while y <= 323:
-    x += 1
-    y += 2
+    x += 3
+    y += 1
     print(x, y)
     if mapSegment[y][x] == tree:
         treeCount += 1
